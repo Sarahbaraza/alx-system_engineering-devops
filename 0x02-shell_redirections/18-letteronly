@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "root" /etc/passwd -A 3
+grep "^[A-Za-z]" /etc/ssh/sshd_config
